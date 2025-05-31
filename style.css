@@ -1,10 +1,32 @@
 html {
     font-family: "Times New Roman" ;
-    color:rgb(255, 0, 0);
+    color:rgb(192, 192, 192);
 }
 body {
-    background-color: rgb(255, 0, 170);
+    background-color: rgb(66, 67, 70);
+    margin:0;
 }
 p{
-    font-size: 8rem;
+    font-size: 1rem;
+}
+.name{
+    background-color: rgb(119, 119, 119);
+    font-weight: 900;
+}
+.bll{
+    color: cadetblue;
+}
+
+#header {
+    background-image: url(https://assets.tastemadecdn.net/images/fe727a/b3d7e648b29e4043ede3/672d47.png);
+    background-size: cover;
+    height: 50%;
+    color: rgb(45, 47, 53);
+    font-size: 2rem;
+    border-radius: 1rem 1rem 1rem;
+
+    display: flex;
+    align-items: left; 
+    flex direction: column; 
+    padding-bottom: 50%;
 }
