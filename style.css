@@ -18,7 +18,7 @@ p{
 }
 
 #header {
-    background-image: url(https://assets.tastemadecdn.net/images/fe727a/b3d7e648b29e4043ede3/672d47.png);
+    background-image: url(https://www.shutterstock.com/image-photo/rubble-ruin-brick-building-wall-600nw-2178065665.jpg);
     background-size: cover;
     height: 50%;
     color: rgb(45, 47, 53);
@@ -27,6 +27,60 @@ p{
 
     display: flex;
     align-items: left; 
-    flex direction: column; 
+    flex-direction: column; 
     padding-bottom: 50%;
+}
+
+.navbar {
+    background-color: rgb(201, 124, 89);
+    display: flex;
+    justify-content:center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 5em;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    transition: 0.5S;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+}
+.nav-links li a:hover {
+    background-color: bisque;
+}
+
+.title {
+    text-align: center;
+    padding: 1em;
+}
+
+.current {
+    text-decoration: underline dotted rgb(255, 0, 0);
+}
+
+.accordion-header {
+    width: 100%;
+    background-color: black;
+    border: none;
+    padding: 1em 1em 1em 3em;
+    text-align: left;
+    font-size: 1.1rem;
+    color: white;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+
+.accordion-header:hover {
+    background-color: blueviolet;
+}
+
+.accodrion-content {
+    display: none;
 }

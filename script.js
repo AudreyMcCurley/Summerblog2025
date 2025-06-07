@@ -8,5 +8,15 @@ console.log("Hello", name);
 
 greeting("Audrey");
 
-let newName = document.getElementById("greeting").value;
+function saveName() {
+
+
+    let newName = document.getElementById("greeter").value;
+    document.getElementById('username').textContent = newName;
+    document.getElementById("greeter").value ="";
+}
+
+
+
+
 
