@@ -1,5 +1,5 @@
 let name = "Audrey";
-let age = 13;
+let age = 14;
 let likesSushi = true;
 
 function greeting(name) {
