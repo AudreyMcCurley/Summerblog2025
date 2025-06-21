@@ -24,7 +24,7 @@ document.querySelectorAll('.accordion-header').forEach(function (button) {
     });
 });
 
-const PASSWORD = "aaa";
+const PASSWORD = "2020choppa";
 
 function validatePass() {
     const login = document.getElementById('password');
